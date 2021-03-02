@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <title>ERROR PAGE</title>
+
+    <style>
+        body{
+            background-color: lightgoldenrodyellow;
+            font-family: 'Merriweather', serif;
+        }
+
+        .error_wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .error_wrapper>.error_heading {
+            margin-bottom: 42px;
+        }
+
+        img {
+            width: 50%;
+        }
+    </style>
 </head>
 <body>
     
-    <h1>Hola Flexbox</h1>
+   <div class="error_wrapper">
+       <div class="error_heading">
+        <h2> Ay ... Quién sabe cuándo estará disponible esa página, ¿te gustaría probar con otra? </h2>
+       </div>
+
+       <img src="tbot.png" alt="Imagen ERROR">
+   </div>
 
 </body>
 </html>
